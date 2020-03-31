@@ -1,20 +1,20 @@
 # Jawaban Pertanyaan Pratikum 1, 2 dan 3
 ## 1) Tampilkan hasil input array yang telah dilakukan pada praktikum bagian 1!
-<img src = '1.PNG'>
+<img src = 1.png>
 
 ## 2. Kenapa pada praktikum bagian 2 perlu di buat objek sebanyak 2 kali dari class minMax?
-<img src = '2.PNG'>
+<img src = 2.png>
 
 Karena 2 objek tersebut bertujuan untuk mencari pencarian nilai maksimal dan minimal yang diambil
 dari array yang dimulai dari indeks ke – 0 pada class lain sesuai degan inputannya sebanyak 5 elemen.
 
 ## 3. Buatlah perhitungan nilai minimal dan maksimal terpisah dari class main. Class main hanya untuk input dan menampilkan saja! 
-<img src = '3.PNG'>
-<img src = '4.PNG'>
-<img src = '5.PNG'>
+<img src = 3.png>
+<img src = 4.png>
+<img src = 5.png>
 
 ## 4. Apakah arti angka 4 pada kode berikut :
-<img src = '6.PNG'>
+<img src = 6.png>
 
 Arti kode tersebut adalah sebagai berikut :
 
@@ -38,7 +38,7 @@ maksimum maupun nilai minimum.
 perbandingan perhitungan antara indeks awal dan indeks akhir.
 
 ## 6. Apakah class Maxmin harus terpisah sepeti ini?Mengapa?
-<img src = '5.PNG'>
+<img src = 5.png>
 
 Karena jika terpisah dan dijadikan dalam satu class, maka variable global tersebut tidak dapat terbaca
 oleh fungsi main pada class itu sendiri, sehingga harus dibuatkan field pada class lainnya.
@@ -49,14 +49,14 @@ dari int [] arr, yang berfungsi untuk menyimpan inputan dari array tersebut mela
 inisialisasi nilai yang diberikan. Hal ini bias diterapkan jika menggunakan metode brute force.
 
 ## 8. Jika tahap 7 bisa dilakukan, bagaimana perubahan kode program secara keseluruhan! 
-<img src = '7.PNG'>
+<img src = 7.png>
 
 Bisa langsung memasukkan nilai Array ke parameter pertama, dengan mengubah objek nilai Array ke Array biasa di main.
-<img src = '9.PNG'>
+<img src = 9.png>
 
 ## 9. Ubahlah praktikum bagian 4 dengan method tanpa nilai kembalian! 
-<img src = '10.PNG'>
-<img src = '11.PNG'>
+<img src = 10.png>
+<img src = 11.png>
 
 ## 10. Manakah yang lebih baik, algoritma brute force atau divide conquer?Jelaskan!
 Algoritma yang lebih baik adalah berdasarkan case yang ditangani, metode brute force merupakan
@@ -65,7 +65,7 @@ sedangkan metode divide conquer merupakan metode yang cocok digunakan untuk penc
 dikarenakan metode ini memecah beberapa masalah menjadi bermacam – macam upa-masalah.
 
 ## 11. Pada praktikum 3 apakah kegunaan tanda “:” pada potongan code program bagian berikut :
-<img src = '8.PNG'>
+<img src = 8.png>
 Kegunaannya adalah sebagai handler dari kedua pernyataa pada masing-masing variable. Dan
 berfungsi untuk menyederhanakan dan menghemat penggunaan variable pada saat ditampilkan pada
 output.
@@ -76,7 +76,7 @@ maupun hasil.maksimum.
 
 # Jawaban Pertanyaan Praktikum 4
 ## 1. Berdasarkan kode pada Praktikum 4 di atas, Jika perulangan kedua pada kode di atas berubah menjadi
-<img src = '12.PNG'>
+<img src = 12.png>
 
 ## Tulislah notasinya berdasarkan perubahan tersebut!
 Notasi Big O
@@ -86,7 +86,7 @@ O(n x n x 1)
 O(n^2)
 
 ## 2. Berdasarkan notasi yang ditentukan pada nomor 1, hitunglah jumlah instruksi jika n = 100!
-<img src = '13.PNG'>
+<img src = 13.png>
 Jumlah instruksi :
 
 O(n x n x 1)

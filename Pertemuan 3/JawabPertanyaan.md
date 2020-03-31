@@ -1,54 +1,54 @@
 # 2.3.3		Pertanyaan
 ## 1.	Base line yang mencari nilai faktorial
-<img src = '1.PNG'>
+<img src = 1.png>
 
 Base ini akan mencari nilai faktorial, Divide and Conquer lebih natural dengan skema rekursif yang dilakukan saat pencarian nilai faktorial dari program tersebut. Maksudnya jika nilai n = 1 maka akan di return jika salah akan masuk ke pencarian nilai fakto = n dikalikan (*) dengan faktorialDc (n-1) ;
 Dan akan di return nilai fakto-nya.
 
 ## 2. 3 bagian itu :
 ### a.	Divide
- <img src = '2.PNG'>
+ <img src = 2.png>
 
 ### b.	Conquer
-<img src = '3.PNG'>
+<img src = 3.png>
  
 ### c.	Combine
- <img src = '4.PNG'>
+ <img src = 4.png>
 
 ## 3.	Bisa dapat diubah dengan while seperti berikut :
- <img src = '5.PNG'>
+ <img src = 5.png>
 
 ## 4.	Code program
  
-<img src = '6.PNG'>
+<img src = 6.png>
 
  
 ## 5.	Hasil 
-<img src = '7.PNG'>
+<img src = 7.png>
 
 a.	Menggunakan Brute Force
-<img src = '8.PNG'>
+<img src = 8.png>
  
 b.	Menggunakan Divide and Conquer
-<img src = '9.PNG'>
+<img src = 9.png>
 
 # 2.4.3	Pertanyaan
 ## 1.	Perbedaan 2 method PangkatBF() dan PangkatDC()
 ### a.	PangkatBF() menggunakan perulangan     
-<img src = '10.PNG'>
+<img src = 10.png>
 
 ### b.	PangkatDC() menggunakan fungsi rekursif
-<img src = '11.PNG'>
+<img src = 11.png>
 
 ## 2.	Potongan kode berikut :
-<img src = '12.PNG'>
+<img src = 12.png>
 Dalam kode program tersebut ada penyeleksian angka dimana angka n, jika (n%2) = 1 maka n adalah bilangan ganjil dan akan dikembalikan ke nilai return berupa rekursif yaitu (pangkatDC(a, n/2) * PangkatDC(a, n/2) * a) dan jika salah maka angka n merupakan bilangan genap sehingga akan mengembalikan nilai return rekursif pada (pangkatDC(a, n/2) * pangkatDC(a, n/2));
 
 ## 3.	Tahap kombine sudah termaksud
- <img src = '13.PNG'>
+ <img src = 13.png>
 
 ## 4.	Penambahan pada Class Pangkat
-<img src = '14.PNG'>
+<img src = 14.png>
  
 ## 5.	Penambahan pada Class PangkatMain
 	/*
@@ -128,7 +128,7 @@ Misalkan bulan yang kita masukkan = 5, keuntungan = {1, 2, 3, 4, 5}. Jadi perhit
 -	di rsum melakukan perhitungan 4 + 5 = 9
 Kemudian direturn dengan menjumlahkan lsum + rsum + arr[mid] = 3 + 9 + 3 = 15 (hasil akhir)
 ## 2.	Cara membatasinya dengan System.out.printf
-<img src = '15.PNG'>
+<img src = 15.png>
 
 ## 3.	Kode program tersebut adalah combine dari Divide and Conquer yaitu fungsi totalDC() itu sendiri, dimana fungsi digunakan untuk menggabungkan kembali pemecahan masalah tadi yang telah di conquer sebelumnya. Hasil akhir dari proses tersebut dan untuk menampilkan outputnya.
 
